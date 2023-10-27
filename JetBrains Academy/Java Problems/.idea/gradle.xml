@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Code completion" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Hello" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Love and war" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Make the syntax correct" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Math difficulties" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Concatenating and printing text, integer, and boolean values" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Construct a program" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Elements of a program" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Find a keyword" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Find a word that is not a keyword" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Hello, Java" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Keywords" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Theory" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

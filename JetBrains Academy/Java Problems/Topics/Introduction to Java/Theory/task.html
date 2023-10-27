@@ -1,0 +1,69 @@
+<h2>Introduction to Java</h2>
+<div class="step-text">
+<p><strong>Java </strong>is a general-purpose modern programming language. The term "general-purpose" indicates the extensive range of capabilities Java offers. With Java, the possibilities are virtually limitless. The key feature of the language is <strong>platform independence</strong>: it means that the same Java program can be run on multiple platforms without any changes! This principle is also known as "write once, run anywhere" (or WORA).</p>
+<p>Being one of the most popular languages in programming for many years, it has earned the top position in the <a href="https://www.tiobe.com/tiobe-index/" rel="noopener noreferrer nofollow" target="_blank">TIOBE</a> index (a general-purpose programming language popularity index). This robust programming language is used by a huge community of software developers around the world! If you have a problem, you can always ask other developers or find a suitable answer online.</p>
+<p>This fundamental programming language is used in a wide variety of domains such as the financial services industry, telecommunications, embedded systems, in our Android smartphones to run mobile applications, and many other areas. Medical enterprise applications use it to store patient files, computer games, such as Minecraft, are created using Java; development tools like IntelliJ IDEA and Eclipse wouldn't exist without it.</p>
+<h5 id="a-short-history-overview">A short history overview</h5>
+<p>Java was initially developed by <a href="https://en.wikipedia.org/wiki/Sun_Microsystems" rel="noopener noreferrer nofollow" target="_blank">Sun Microsystems</a>, and is currently owned by <a href="https://en.wikipedia.org/wiki/Oracle_Corporation" rel="noopener noreferrer nofollow" target="_blank">Oracle Corporation</a>. The language project was initiated in 1991 by James Gosling and his colleagues. In the beginning, the language was called "Oak." Later the project was renamed as a reference to Java coffee. For this reason, the language’s logo is a cup of coffee.</p>
+<p style="text-align: center;"><img alt="Java logo" height="428" src="https://ucarecdn.com/6b2b0c7a-8b69-4701-947c-b869bef018ba/" width="234"/></p>
+<p style="text-align: center;"><strong>The logo of the Java language</strong></p>
+<p>Sun Microsystems released Java 1.0 in 1996. After that, new versions were released every 1 to 3 years. Since Java 9, released in 2017, new versions have been released every 6 months. Starting from Java 11, every third major release is designated as an LTS version, which receives a minimum of 8 years of support. This allows organizations and developers to use stable, long-term supported versions of Java, ensuring reliability and security in their application development. You can read more about Java's history and its versions <a href="https://en.wikipedia.org/wiki/Java_version_history" rel="noopener noreferrer nofollow" target="_blank">on Wikipedia</a>. Hyperskill currently supports versions up to Java 17.</p>
+<h5 id="some-important-features-of-java">Some important features of Java</h5>
+<p>As we've mentioned before, the most important feature of Java is <strong>platform independence</strong>. This is achieved through the use of the Java Virtual Machine (JVM). When Java code is compiled, it is converted into platform-independent bytecode, which is executed by the JVM. At runtime, the JVM translates the bytecode into machine code. As a result, Java programs can run on any system that has a JVM.</p>
+<p>Another important feature is a <strong>plain </strong>and <strong>clear syntax</strong>. Many elements of this simple language are easy to read and are widely used in other programming languages such as C/C++, C#, JavaScript, and Go.</p>
+<p>If you have ever written programs in C/C++, you know that manual memory management can lead to bugs in the source code. Fortunately, the Java programming environment has a <strong>garbage collector</strong> that <strong>automatically cleans memory</strong> garbage from unused content during runtime.</p>
+<p>It is also important to note that Java supports multiple programming paradigms; you will get to know more about them in future topics. As it's primarily an imperative language based on object-oriented programming, almost every part of a program is an object. Therefore, a program itself can be considered as a set of interacting objects. Also, it partially supports modern programming paradigms such as <em>generic programming, concurrent programming, functional programming</em>, and some others.</p>
+<p>Java is one of the most popular programming languages, and many large systems and applications are based on it. Some well-known examples include application servers such as Apache Tomcat, JBoss, and WebLogic. Because of its reliability and performance, Java has been widely used in many large systems. It has been used to write popular services such as Netflix, Uber, and Spotify. Amazon uses Java to develop their web services.</p>
+<p>Java has a huge active developer community. There are many forums, blogs, chat rooms, and websites where you can find help, tips, and programming guides. <br/>
+There are also many libraries and frameworks based on Java, for example, Spring and Hibernate, which greatly simplify application development and extend the functionality of the language. With such a large community, Java developers have access to a wealth of knowledge, experience and support that contributes to the successful development and support of Java projects.</p>
+<p>If you are a beginner in programming, it may be difficult to comprehend all the methods, complex features and key concepts of Java right now. This is not a bad thing. Throughout this set of topics, you will learn about all of these key concepts. Also, Java Docs have comprehensive <a href="https://docs.oracle.com/en/java/javase/" rel="noopener noreferrer nofollow" target="_blank">online documentation</a> that comprises guides, tutorials, specifications, API documentation, technical information, and more. We will refer you to it from time to time during your studies.</p>
+<p>All in all, Java is a modern and popular programming language that can be successfully used in almost all domains.</p>
+<h5 id="talk-is-cheap-show-me-the-code">Talk is cheap. <em>Show me the code</em></h5>
+<p>Let's look at the "Hello World" Java program</p>
+<pre><code class="language-java">public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}</code></pre>
+<p>As you may guess output is greeting the world</p>
+<pre><code class="language-bash">Hello World!</code></pre>
+<p>The simplest well-formatted program takes 5 lines. Let's conisder program parts in details. Every Java program must have a class. In our case it is <code class="language-java">HelloWorld</code>, but any other name can be used. Inside a class we defined a single method with name <code class="language-java">main</code>. Unlike the class, name of the method matters as well as other parts of the method's declaration <code class="language-java">public static void main(String[] args)</code>. The full construction looks quite complex, but it makes the class launchable from IDEA or console. We are definitely going to cover all parts in details in the course. For now just try to remember how to declare the main method, because you will face it many times in future.</p>
+<p>Looks like we covered almost everything, except the line which actually prints the message. <code class="language-java">System.out.println</code> is a standard way to print to the console. Here we print <code class="language-java">Hello World!</code>, but any text could be printed using the same approach.</p>
+<p>Pay attention to curly brackets and semicolon in the end of line which prints text. Curly brackets are used to mark out lines of code into structural blocks. Classes and methods are such structural blocks. Semicolon is an another marker, but it indicates end of line. As a rule each line of code in Java ends with semicolon except structural constructions that we mentioned before.</p>
+<p>In the example above we outputed the text into the console. Now let's consider how to input something from the console.</p>
+<pre><code class="language-java">import java.util.Scanner;
+
+public class For {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What is your name?");
+        String name = scanner.next();
+        System.out.println("Hello " + name + "!");
+    }
+}</code></pre>
+<p>The code prints the message asking us to input a name, then reads the text from the console and prints personalized greetings! To read the console we are using special <code class="language-java">Scanner</code> class designed to get input. We just need to import it before class declaration and the it is ready for usage. Its <code class="language-java">next</code> method waits for user input and stores it in <code class="language-java">name</code> variable. To use a class Here is how console looks like</p>
+<pre><code class="language-bash">What is your name?
+&gt;Student
+Hello Student!</code></pre>
+<p>Slightly modifying the code above we can write a program that reads 2 integer numbers and prints sum of them.</p>
+<pre><code class="language-java">import java.util.Scanner;
+
+public class For {
+    public static void main(String[] args) {
+        System.out.println("Type 2 integer numbers separated by space");
+
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int sum = a + b;
+        System.out.println("Sum is " + sum);
+    }
+}
+</code></pre>
+<p>Output for this code will be</p>
+<pre><code class="language-bash">Type 2 integer numbers separated by space
+&gt;2 3
+Sum is 5</code></pre>
+<p>As you see it is pretty simple to write more complex code step by step. In code snippets below we covered only basic program structure, fundamental constructions for input-output and arithmetic operation. Java offers a wide variety of tools for different purposes. No matters what programming problem are you solving, wih Java you find a way how to implement it!</p>
+</div>
