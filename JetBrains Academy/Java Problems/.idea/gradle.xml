@@ -10,6 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Conditional statement/Check a number is positive" />
+            <option value="$PROJECT_DIR$/Topics/Conditional statement/Theory" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Code completion" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Hello" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Love and war" />
@@ -24,6 +26,15 @@
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Hello, Java" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Keywords" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Check the value" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Check the value (1)" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Comparing two integer values" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Comparing two integers in a program" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Determine the result" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Exactly one parameter is positive" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Is between" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Possible values of a variable" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

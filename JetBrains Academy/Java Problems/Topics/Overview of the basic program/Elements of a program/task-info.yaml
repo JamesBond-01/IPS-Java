@@ -1,10 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-  - text: <b>void</b> is a statement
-  - text: <b>main</b> is a keyword
-  - text: <b>HelloWorldProgram</b> is a name
-  - text: <b>class</b> is a keyword
+is_multiple_choice: false
 files:
   - name: src/Task.java
     visible: true
