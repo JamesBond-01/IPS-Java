@@ -1,5 +1,3 @@
-package cartas;
-
 import java.util.Scanner;
 
 /**

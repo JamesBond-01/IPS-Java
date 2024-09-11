@@ -1,5 +1,3 @@
-package cartas;
-
 public record Carta(Numero numero, Palo palo) {
 
     /**
